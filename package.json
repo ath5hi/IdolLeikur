@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node server.js",
+    "start": "npm-run-all --parallel build start-server",
     "build": "parcel build public/index.html",
+    "start-server": "node server.js",
     "stop": "node server.stop.js"
   },
   "keywords": [],
