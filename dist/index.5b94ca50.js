@@ -1,0 +1,2 @@
+document.getElementById("nameForm").addEventListener("submit",function(e){e.preventDefault();let n=document.getElementById("name").value;console.log("Submitting name:",n),fetch("/submit",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({name:n})}).then(e=>e.json()).then(e=>{console.log("Server response:",e.message)}).catch(e=>{console.error("Error:",e)})});
+//# sourceMappingURL=index.5b94ca50.js.map
