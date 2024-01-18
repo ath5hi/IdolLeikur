@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+
+# Compiled output
+dist/
+.cache/
+.parcel-cache/
+.DS_Store
+
+# Log files
+*.log
+
+# IDE-specific files
+.vscode/
+.idea/
